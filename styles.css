@@ -63,8 +63,13 @@ nav.navbar.navbar-dark.bg-dark.fixed-top {
   border-bottom: 1px solid #eceaea;
   margin:auto;
 }
-
-@media (max-width: 996px){
+.s-title{
+  display: none;
+}
+@media (max-width: 768px){
+  .s-title{
+    display: block;
+  }
     .pl{
         font-size: 17.5vw;
     }
@@ -156,7 +161,13 @@ hr{
 }
 .modal-content{
   box-shadow: 0px 0px 15px #fff;
+  background-image: url(https://alg.leoafricainstitute.org/wp-content/uploads/2019/10/image_shape.png)!important;
 }
+.modal-body{
+  background-image: url(https://alg.leoafricainstitute.org/wp-content/uploads/2019/10/image_shape.png)!important;
+
+}
+
 @media (min-width: 996px){
 .modal-dialog {
     max-width: 900px;
@@ -276,7 +287,7 @@ hr{
     display: none;
   }
   .ts-footer-social ul li a:hover {
-    background: #e7015e;
+    background: #6c0d11;
     border-color: transparent;
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
