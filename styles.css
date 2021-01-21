@@ -9,6 +9,9 @@
         max-width: 1240px!important;
     }
 }
+html {
+  /* scroll-behavior: smooth; */
+}
 h1,h2,h3,h4{
     font-family: "Playfair Display";
 }
@@ -31,7 +34,7 @@ h1,h2,h3,h4{
 
 nav.navbar.navbar-dark.bg-dark.navbar-fixed-top {
     background: #090909;
-    box-shadow: 0 2px 5px rgba(19,19,19,.7);
+    box-shadow: 0 10px 15px rgba(19,19,19, 0.7);
     z-index: 100;
 }
 .pl, .di{
@@ -136,6 +139,9 @@ hr{
     /* outline: 1px solid #eceaea; */
     cursor:pointer;
 }
+.modal-content{
+  box-shadow: 0px 0px 15px #fff;
+}
 @media (min-width: 996px){
 .modal-dialog {
     max-width: 900px;
@@ -155,7 +161,70 @@ hr{
 } */
 
 
+#contributors{
+  padding-top:100px;padding-bottom:100px;
+}
+#contributors .tcontainer{
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+#contributors h2{
+  font-size: 42px;
+  font-weight: 700;
+}
+/* OUTER CONTAINER */
+.tcontainer {
+  width: 100%;
+  overflow: hidden; /* Hide scroll bar */
+}
+ 
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%; /* Push contents to right side of screen */
+  /* background-color: #eee; */
+}
 
+/* INNER CONTAINER */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-move {
+  /* Basically move items from right side of screen to left in infinite loop */
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 35s;
+  padding: 40px 0;
+}
+.ticker-move:hover{
+  animation-play-state: paused; /* Pause scroll on mouse hover */
+}
+
+/* ITEMS */
+.ticker-item{
+  font-size:48px;
+  font-weight: 700;
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+}
+.ticker-item a{
+  text-decoration: none;
+  color:inherit;
+}
+.ticker-item:after {
+    content: "|";
+    margin-left: 2rem;
+}
+@media (max-width: 768px){
+  .ticker-item{font-size:36px;}
+  .ticker-move { animation-duration: 50s; }
+
+}
 
 
 
