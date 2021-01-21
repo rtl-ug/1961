@@ -227,7 +227,7 @@ hr{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 35s;
+  animation-duration: 140s;
   padding: 40px 0;
 }
 .ticker-move:hover{
@@ -251,7 +251,7 @@ hr{
 }
 @media (max-width: 768px){
   .ticker-item{font-size:36px;}
-  .ticker-move { animation-duration: 50s; }
+  .ticker-move {animation-duration: 200s;}
 
 }
 
