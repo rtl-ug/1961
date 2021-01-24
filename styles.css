@@ -148,7 +148,8 @@ nav.navbar.navbar-dark.bg-dark.fixed-top {
     color:#6c0d11;
 }
 hr{
-    background-color: #6c0d11;
+    /* background-color: #6c0d11; */
+    background-color: #eceaea;
 }
 .lead small{
     color:teal;
