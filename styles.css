@@ -338,3 +338,162 @@ hr{
   .speakder-designation{
     font-style: italic;
   }
+
+
+
+
+.book-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.book-list li {
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #eceaea;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+  /* color: #333; */
+  line-height: 20px;
+}
+.lifted {
+  padding: 3px;
+  margin-bottom: 10px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.drop-shadow {
+  position: relative;
+  float: left;
+  margin: 0 10px 0 0;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+}
+.lifted:before, .lifted:after {
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  max-height: 100px;
+  -webkit-box-shadow: 0 15px 10px rgb(0 0 0 / 70%);
+  -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+  box-shadow: 0 15px 10px rgb(0 0 0 / 70%);
+  -webkit-transform: rotate(
+-3deg
+);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(
+-3deg
+);
+}
+.drop-shadow:before, .drop-shadow:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+}
+.lifted:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(
+3deg
+);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(
+3deg
+);
+}
+.book-cover {
+  min-height: 105px;
+  min-width: 105px;
+  border: 1px solid #dedede;
+}
+.float-left, .review-meta-btn {
+  float: left;
+}
+.book-rating .ranking-num-sign {
+  font-size: 35px;
+  line-height: 27px;
+  color: #6c0d11;
+  vertical-align: top;
+}
+.book-rating .ranking-num {
+  font-size: 60px;
+  line-height: 45px;
+  font-weight: bold;
+}
+.book-list li .book-title {
+  /* font-weight: bold; */
+  /* font-size: 18px; */
+}
+.book-list li .book-author {
+  /* color: #666; */
+  font-size: 14px;
+}
+.rated img {
+  vertical-align: text-top;
+}
+.review-count {
+  font-size: 12px;
+  line-height: 16px;
+}
+.gray-me, .review-count {
+  /* color: #aaa; */
+}
+.book-points {
+  /* clear: right; */
+  /* color: #666; */
+  /* font-size: 12px; */
+}
+.first-words {
+  /* color: #666; */
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.p-margin {
+  margin-bottom: 0px;
+}
+.float-right, .review-date, .show-review-stars {
+  float: right;
+}
+
+.book-list li .book-button-links {
+  clear: both;
+  border-top: 1px dotted #ccc;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.book-list li .book-button-links .small-amazon-link {
+  margin: 1px 0 0 2px;
+}
+.book-list li .book-button-links .small-affiliate-link {
+  float: right;
+  margin-left: 3px;
+}
+.bump {
+  height: 1px;
+  width: 1px;
+  clear: both;
+  display: block;
+}
+
+.articles .col-md-6{
+  padding-bottom: 2em;
+}
+.articles a{
+  padding-bottom: 2em;
+  color:#eceaea;
+  /* text-decoration: underline; */
+}
