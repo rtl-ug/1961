@@ -1,8 +1,10 @@
 Dev Environment:
-https://rtl.ug:2083/cpsess3239855094/frontend/paper_lantern/version_control/index.html#/manage/%252Fhome%252Frtlug%252Fdev.rtl.ug%252F1961/deploy
+https://rtl.ug:2083/cpsess7642107115/frontend/paper_lantern/version_control/index.html#/manage/%252Fhome%252Frtlug%252Fdev.rtl.ug%252F1961/deploy
 
 
-
+.g-background-default {
+    background-color: rgb(36, 36, 36) !important;
+}
 
 
 

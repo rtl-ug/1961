@@ -238,6 +238,7 @@ hr{
 /* ITEMS */
 .ticker-item{
   font-size: 36px;
+  font-size: 1.25rem;
   font-weight: 700;
   display: inline-block; /* Lay items in a horizontal line */
   padding: 0 2rem;
@@ -251,7 +252,7 @@ hr{
     margin-left: 2rem;
 }
 @media (max-width: 768px){
-  .ticker-item{font-size:36px;}
+  .ticker-item{font-size:36px;font-size: 1.25rem;}
   .ticker-move {animation-duration: 200s;}
 
 }
